@@ -11,6 +11,7 @@ DB  : sqlite3(64비트)
 1. 서버(현재는 localhost:8000/pybo/)  
 2. config/urls.py 에서 URL 해석해서 pybo/views.py 파일의 index함수 호출  
 3. pybo/views.py 파일의 index함수를 실행하여 결과를 웹 브라우저에 전달  
+4. 게시판을 순차적으로 업그레이드 하며 기능 추가
 
 DB 구조 (1 : N)  
 질문 1개에 답변이 여러개 연결  

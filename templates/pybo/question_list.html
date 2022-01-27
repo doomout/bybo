@@ -19,7 +19,6 @@
         <a href="{% url 'pybo:detail' question.id %}">
           {{ question.subject }}
         </a>
-        #답글이 0개 이상이면 ()에 숫자 표시 사실상 다 표시
         {% if question.answer_set.count >= 0 %}
         <span class="text-danger small ml-2">
           ({{ question.answer_set.count }})
