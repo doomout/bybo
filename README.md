@@ -36,6 +36,8 @@ Gunicorn 자동등록 - sudo systemctl enable mysite.service
 
 Nginx 설치 - sudo apt install nginx
 
+서버 git 업데이트 후 - sudo systemctl restart mysite.service
+
 
  localhost:8000/admin   
  id: admin   
